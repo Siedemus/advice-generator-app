@@ -1,5 +1,12 @@
+import { Advice } from "./Advice";
 import { StyledContainer } from "./styled";
 
 export const Container = () => {
-  <StyledContainer>Hello</StyledContainer>;
+  return (
+    <>
+      <StyledContainer>
+        <Advice />
+      </StyledContainer>
+    </>
+  );
 };
