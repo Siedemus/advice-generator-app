@@ -1,4 +1,5 @@
 import { Advice } from "./Advice";
+import { Button } from "./Button";
 import { StyledContainer } from "./styled";
 
 export const Container = () => {
@@ -6,6 +7,7 @@ export const Container = () => {
     <>
       <StyledContainer>
         <Advice />
+        <Button />
       </StyledContainer>
     </>
   );
