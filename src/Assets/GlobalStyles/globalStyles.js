@@ -27,6 +27,8 @@ html, body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: Manrope, sans-serif;
+  background-color: ${({theme}) => theme.colors.darkBlue};
 }
 /*
   6. Improve media defaults
