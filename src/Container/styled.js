@@ -16,6 +16,5 @@ export const StyledContainer = styled.main`
     css`
       min-width: 300px;
       min-height: 300px;
-    
     `}
 `;
