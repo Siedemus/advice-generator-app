@@ -12,8 +12,8 @@ export const Container = () => {
 
   return (
     <>
-      <StyledContainer loading={isDataFalse}>
-        <Advice data={data}/>
+      <StyledContainer loading={+isDataFalse}>
+        <Advice data={data} />
         <Button setTrigger={setTrigger} />
       </StyledContainer>
     </>
