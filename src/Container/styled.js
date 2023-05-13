@@ -8,4 +8,5 @@ justify-content: center;
 align-items: center;
 background-color: ${({theme}) => theme.colors.darkGrayishBlue};
 max-width: 550px;
+border-radius: 15px;
 `
