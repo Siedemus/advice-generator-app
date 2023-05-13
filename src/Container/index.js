@@ -7,11 +7,12 @@ import { useFetchAdvice } from "./useFetchAdvice";
 export const Container = () => {
   const [trigger, setTrigger] = useState(false);
   const data = useFetchAdvice(trigger);
-  console.log(data);
+
+  const isDataFalse = data ? false : true;
 
   return (
     <>
-      <StyledContainer data={data}>
+      <StyledContainer loading={isDataFalse}>
         <Advice data={data}/>
         <Button setTrigger={setTrigger} />
       </StyledContainer>
