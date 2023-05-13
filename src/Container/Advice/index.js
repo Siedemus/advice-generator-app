@@ -1,12 +1,19 @@
 import { AdviceHeader, StyledAdvice, BorderImage } from "./styled";
-import desktopImage from "../../Assets/Images/pattern-divider-desktop.svg"
+import desktopImage from "../../Assets/Images/pattern-divider-desktop.svg";
+import { ClimbingBoxLoader } from "react-spinners";
 
-export const Advice = () => {
-    return (
+export const Advice = ({ data }) => {
+  return (
+    <>
+      {data ? (
         <>
-        <AdviceHeader>Advice #1337</AdviceHeader>
-        <StyledAdvice>"It is easy to sit up and take notice, what's difficult is getting up and taking action.</StyledAdvice>
-        <BorderImage src={desktopImage}></BorderImage>
+          <AdviceHeader>Advice #{data.id}</AdviceHeader>
+          <StyledAdvice>{data.advice}</StyledAdvice>
+          <BorderImage src={desktopImage}></BorderImage>
         </>
-    );
+      ) : (
+        <ClimbingBoxLoader color="#52ffa8" size={30} />
+      )}
+    </>
+  );
 };

@@ -9,5 +9,5 @@ align-items: center;
 background-color: ${({theme}) => theme.colors.darkGrayishBlue};
 max-width: 550px;
 border-radius: 15px;
-margin: 15px;
+margin: 100px 15px;
 `
