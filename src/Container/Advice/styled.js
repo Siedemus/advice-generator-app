@@ -17,7 +17,7 @@ text-align: center;
 `;
 
 const BorderImage = styled.img`
-padding-bottom: 20px;
+padding-bottom: 40px;
 `;
 
 export { AdviceHeader, StyledAdvice, BorderImage };
