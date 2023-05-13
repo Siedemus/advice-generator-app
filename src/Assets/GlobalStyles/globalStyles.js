@@ -29,6 +29,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: Manrope, sans-serif;
   background-color: ${({theme}) => theme.colors.darkBlue};
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*
   6. Improve media defaults
