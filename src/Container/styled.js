@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const StyledContainer = styled.main`
+const AdviceContainer = styled.main`
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -18,3 +18,11 @@ export const StyledContainer = styled.main`
       min-height: 300px;
     `}
 `;
+
+const LoadinContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+`;
+export { LoadinContainer, AdviceContainer };
