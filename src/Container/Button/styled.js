@@ -9,7 +9,7 @@ const StyledButton = styled.button`
   transition: 1s;
 
   &:hover {
-    box-shadow: -1px 10px 105px 7px rgba(0, 255, 150, 0.86);
+    box-shadow: -1px 10px 35px 7px rgba(0, 255, 150, 0.86);
   }
 `;
 
